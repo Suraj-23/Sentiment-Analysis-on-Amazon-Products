@@ -47,7 +47,7 @@ st.title('Model Deployment: Classification')
 st.header('Input Product Description and Product Type')
 
 
-url = 'https://github.com/HZ004/Project-NLP/blob/main/Product_details.csv?raw=true'
+url = 'https://github.com/Suraj-23/Sentiment-Analysis-on-Amazon-Products/blob/main/Product_details.csv?raw=true'
 train = pd.read_csv(url)
 
 inputpd = st.text_input('Product Description', 'Umm. Hello!! What about Android?! RT @mention Awesome new version of @mention for iPhone and new web site coming after #sxsw.')
